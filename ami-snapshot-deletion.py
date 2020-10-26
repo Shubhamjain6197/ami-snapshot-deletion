@@ -1,7 +1,7 @@
 '''
 Author - @Shubham Jain
-Description - This scripts delates the ami and associated snapshots with it.
-Inputs - Please pass region name and ami ids(n) as inputs.
+Description - This scripts deregister the ami and deletes associated snapshots with it.
+Inputs - Please pass region name and ami ids(n) as inputs. (ex. ami-1233,ami-3422)
 '''
 
 import boto3
